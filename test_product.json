@@ -1,0 +1,14 @@
+{
+    "products": [
+      {
+        "name": "Test Product",
+        "price": 10.99,
+        "contain_articles": [
+          {
+            "art_id": "1",
+            "amount_of": "1"
+          }
+        ]
+      }
+    ]
+  }
