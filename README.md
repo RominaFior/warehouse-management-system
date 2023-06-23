@@ -7,7 +7,7 @@ This project was generated with Angular version 16.0.1. and Node.js v18.13.0
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
 Running the Node.js Server
-To start the Node.js server, run the following command: `npm run start`
+To start the Node.js server, run the following command: `npm run start`and the server will start on port `http://localhost:3000`.
 
 ## Running unit tests
 
@@ -15,7 +15,7 @@ To execute the unit tests in the backend, use the following command: `npm run te
 
 ## Test Files
 
-There are two test files available at the root of your project:
+There are two test files available at the root of the project:
 
 `test_inventory.json`: This file contains sample data for testing the inventory functionality.
 `test_product.json`: This file contains sample data for testing the product functionality.
