@@ -109,24 +109,7 @@ class ProductController {
     fs.unlinkSync(filePath);
   }
 
-
-  /**
-   * Updates the inventory with new stock quantities
-   * @param {Object} req - Express request object
-   * @param {Object} res - Express response object
-   */
-  updateInventory(req, res) {
-    const inventory = req.body;
-
-    try {
-      this.inventoryRepository.updateInventory(inventory);
-      res.json('Inventory updated successfully');
-    } catch (error) {
-      res.status(500).send('Error occurred while updating inventory');
-    }
-  }
-
-
+  
   /**
    * Retrieves the current inventory
    * @param {Object} req - Express request object
