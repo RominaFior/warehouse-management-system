@@ -106,6 +106,7 @@ class ProductController {
 
     this.productRepository.setProducts(products);
     res.json(products);
+    fs.unlinkSync(filePath);
   }
 
 
