@@ -37,7 +37,7 @@ class AvailabilityCalculator {
                 availableQuantity: availableQuantity,
                 price: product.price,
             };
-        }).filter((product) => product.availableQuantity !== null);
+        })
 
         return availableProducts;
     }
